@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Alvarium\Filters\Queries\Defaults;
+namespace App\Alvarium\Filters\Services\Queries\Defaults;
 
 
 use Alvarium\Filters\Queries\DecorateQuery;

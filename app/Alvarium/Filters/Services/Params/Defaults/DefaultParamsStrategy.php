@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Alvarium\Filters\Params\Defaults;
+namespace App\Alvarium\Filters\Services\Params\Defaults;
 
 
 use Alvarium\Filters\Data\State;

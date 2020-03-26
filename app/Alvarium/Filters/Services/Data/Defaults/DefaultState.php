@@ -1,6 +1,6 @@
 <?php
 
-namespace Alvarium\Filters\Data\Defaults;
+namespace App\Alvarium\Filters\Services\Data\Defaults;
 
 
 use Alvarium\Filters\Data\State;

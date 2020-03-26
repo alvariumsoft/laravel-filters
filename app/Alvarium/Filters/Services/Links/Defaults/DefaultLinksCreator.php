@@ -1,6 +1,6 @@
 <?php
 
-namespace Alvarium\Filters\Links\Defaults;
+namespace App\Alvarium\Filters\Services\Links\Defaults;
 
 
 use Alvarium\Filters\Links\LinksCreator;

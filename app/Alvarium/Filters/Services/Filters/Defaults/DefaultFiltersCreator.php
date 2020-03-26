@@ -1,6 +1,6 @@
 <?php
 
-namespace Alvarium\Filters\Filters\Defaults;
+namespace App\Alvarium\Filters\Services\Filters\Defaults;
 
 
 use Alvarium\Filters\Filters\FiltersCreator;

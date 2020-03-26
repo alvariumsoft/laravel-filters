@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Alvarium\Filters\Queries\Defaults;
+namespace App\Alvarium\Filters\Services\Queries\Defaults;
 
 
 use Alvarium\Filters\Queries\DecorateQuery;
 
 class PropertiesQuery extends DecorateQuery
 {
-    public function addQuery($query, $chosenFilters)
+    public function addQuery($query, array $chosenFilters)
     {
         foreach ($chosenFilters as $key => $filter) {
             if (strpos($key, 'property') === 0) {

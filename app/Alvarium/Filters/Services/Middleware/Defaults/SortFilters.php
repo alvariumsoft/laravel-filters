@@ -1,6 +1,6 @@
 <?php
 
-namespace Alvarium\Filters\Middlewares\Defaults;
+namespace App\Alvarium\Filters\Services\Middlewares\Defaults;
 
 
 use Alvarium\Filters\Middlewares\Middleware;
