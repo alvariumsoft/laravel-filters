@@ -1,6 +1,6 @@
 laravel-filters
 =================
-[![Laravel 5](https://img.shields.io/badge/Laravel-5-orange.svg?style=flat-square)](http://laravel.com)
+[![Laravel 6](https://img.shields.io/badge/Laravel-5-orange.svg?style=flat-square)](http://laravel.com)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 
 Пакет для работы с фильтрами в Laravel-6
@@ -8,7 +8,7 @@ laravel-filters
   * Фильтры для магазинов и каталогов.
   * ЧПУ и GET параметры.
   * Кеширование.
-  * Полностью рабочие из коробки с дефолтными настройками.
+  * Работают с дефолтными настройками.
   * Набор примеров кастомизации под частные задачи.
 
 
@@ -52,4 +52,4 @@ php artisan vendor:publish --provider="Alvarium\Filters\FiltersServiceProvider"
 -------------
 
 В публикуемых папках Defaults (App\Alvarium\Filters\Services\Data\Defaults) есть примеры всех сервисов по умолчанию. Для большинства случаев их будет достаточно.
-Если же нужно изменить или дополнить функциональность, создаем по примерам свои сервисы и подключаем их в конфиге.
+Если же нужно изменить или дополнить функциональность, создаем по примерам свои сервисы и подключаем их в файле конфигурации.
