@@ -1,6 +1,6 @@
 laravel-filters
 =================
-[![Laravel 6](https://img.shields.io/badge/Laravel-5-orange.svg?style=flat-square)](http://laravel.com)
+[![Laravel 6](https://img.shields.io/badge/Laravel-6-orange.svg?style=flat-square)](http://laravel.com)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 
 Пакет для работы с фильтрами в Laravel-6
