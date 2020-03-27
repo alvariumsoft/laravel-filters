@@ -11,7 +11,7 @@ return [
         'links_creator' => \App\Alvarium\Filters\Services\Links\Defaults\DefaultLinksCreator::class,
     ],
     'middleware' => [
-        \App\Alvarium\Filters\Services\Middlewares\Defaults\SortFilters::class,
+        \App\Alvarium\Filters\Services\Middleware\Defaults\SortFilters::class,
     ],
     'settings' => [
         'cache_time' => 3600 * 24,
