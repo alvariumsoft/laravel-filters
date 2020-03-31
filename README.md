@@ -88,6 +88,14 @@ slug
 sort
 ```
 
+Свойства в таблице products должны храниться в поле properties (json) в таком виде:
+
+```
+{"property_1": "property_value_2", "property_2": "property_value_4", "property_3": "property_value_11", "property_4": "property_value_22", "property_5": "property_value_24", "property_9": "property_value_54", "property_10": "property_value_55"}
+```
+
+Где значения - это slug property_enums. Если у вас поля или таблицы сходны по структуре, но называются иначе, вы можете их просто переименовать в сервисе `\App\Alvarium\Filters\Services\Data\Defaults\DefaultState::class`.
+
 У нас есть маршрут фильтров для подкатегорий:
 
 ```php
