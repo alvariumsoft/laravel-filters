@@ -27,7 +27,6 @@ class DefaultLinksCreator extends LinksCreator
     {
         $newChosenFilters = [];
 
-        // todo: refactor this function
         foreach ($chosenFilters as $key => $chosenFilter) {
             $newChosenFilters[$key] = $chosenFilter;
             foreach ($chosenFilter['items'] as $keyItem => $item) {
@@ -70,7 +69,6 @@ class DefaultLinksCreator extends LinksCreator
     {
         $newFilters = [];
 
-        // todo: refactor this function
         foreach ($filters as $key => $chosenFilter) {
             $newFilters[$key] = $chosenFilter;
             foreach ($chosenFilter['items'] as $keyItem => $item) {
